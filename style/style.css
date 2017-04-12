@@ -1,0 +1,47 @@
+#banner{
+	text-align: center;
+}
+
+#left-container{
+
+}
+
+#pic1{
+	height: 40vh;
+	width: 100vh;
+	margin-bottom: 3%;
+	box-shadow: 2px 2px 5px #888888;
+
+}
+
+#embedVideo{
+	margin-top: 0;
+	height: 40vh;
+	width: 100vh;
+	box-shadow: 2px 2px 5px #888888;
+
+}
+.navbar{
+	box-shadow: 2px 2px 5px #888888;
+}
+
+.navbar, .nav{
+	background-color: #00b300;
+}
+
+.navbar.center .navbar-inner {
+	background-color: #00b300;
+    text-align: center;
+}
+.navbar.center .navbar-inner .nav {
+	font-size: 1.5em;
+	background-color: #00b300;
+    float: none;
+    display:inline-block;
+    vertical-align: top;  
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
