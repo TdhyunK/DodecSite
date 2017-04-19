@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router';
+
 
 export default (props) => {
 	return(
 		<div>
 			<div className="container-fluid" id="banner">
-					<h1> Dodecaphonics </h1>
-					<h3> ~ Dartmouth's oldest and premier acapella group ~ </h3>
+				<h1> Dodecaphonics </h1>
+				<h3> ~ Dartmouth's oldest and premier acapella group ~ </h3>
 			</div>
 
 			<nav className="navbar navbar-default center" id="navbar">
@@ -33,7 +35,7 @@ export default (props) => {
 				            <li><a href="#">Tour info</a></li>
 				          </ul>
 				        </li>
-				        <li> <a href="#">~Members </a> </li>
+				        <li> <Link to="/members">~Members </Link> </li>
 				        <li> <a href="#">~Audio </a> </li>
 				        <li> <a href="#">~Video </a> </li>
 				        <li> <a href="#">~Donate </a> </li>

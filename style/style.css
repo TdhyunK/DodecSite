@@ -2,8 +2,14 @@
 	text-align: center;
 }
 
-#left-container{
+#dodecSymbol{
+	border-style: solid;
+	margin-left: 0%;
+}
 
+#UpcomingShows{
+	margin-left: 10%;
+	border-style: solid;
 }
 
 #pic1{
@@ -11,6 +17,7 @@
 	width: 100vh;
 	margin-bottom: 3%;
 	box-shadow: 2px 2px 5px #888888;
+	margin-right: 10%;
 
 }
 
@@ -19,6 +26,24 @@
 	height: 40vh;
 	width: 100vh;
 	box-shadow: 2px 2px 5px #888888;
+	margin-right: 100%;
+
+}
+
+#footer{
+	background-color: #00b300;
+}
+
+#footer-text{
+	color: #fff;
+
+	text-align: center;
+}
+
+#memberPic{
+	/*border-style: solid;*/
+	margin-bottom: 10%;
+	text-align: center;
 
 }
 .navbar{
@@ -44,4 +69,33 @@
 .navbar-default .navbar-nav>li>a {
     color: #fff;
 }
+
+.image-cover p {
+	display: none;
+	text-align: center;
+	/*padding: 5px;*/
+
+	/*border-style: solid;*/
+}
+
+.image-cover {  
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    /*border-style: solid;*/
+}
+
+.darkbackground .image-cover {
+    background-color: rgba(0,0,0,0.3) !important;
+    /*border-style: solid;*/
+}
+
+.col-xs-12 .col-lg-3{
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+
 
