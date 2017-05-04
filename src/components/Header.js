@@ -6,7 +6,7 @@ export default (props) => {
 	return(
 		<div>
 			<div className="container-fluid" id="banner">
-				<h1> Dodecaphonics </h1>
+				<Link to={"/"}> <img src={"../../img/DodecLogo.png"} /> </Link>
 				<h3> ~ Dartmouth's oldest and premier acapella group ~ </h3>
 			</div>
 
@@ -26,20 +26,20 @@ export default (props) => {
 			    <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				    <div className="navbar-inner">
 				      <ul className="nav navbar-nav">
-				        <li> <a href="#"> Home </a> </li>
+				        <li> <Link to="/"> Home </Link> </li>
 				        <li className="dropdown">
 				          <a href="#" className="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">~ About <span className="caret"></span></a>
 				          <ul className="dropdown-menu">
-				            <li><a href="#">Biography</a></li>
+				            <li><Link to="/biography">Biography</Link></li>
 				            <li role="separator" className="divider"></li>
-				            <li><a href="#">Tour info</a></li>
+				            <li><Link to="/tours">Tours</Link></li>
 				          </ul>
 				        </li>
 				        <li> <Link to="/members">~Members </Link> </li>
 				        <li> <a href="#">~Audio </a> </li>
-				        <li> <a href="#">~Video </a> </li>
-				        <li> <a href="#">~Donate </a> </li>
-				        <li> <a href="#">~Social Media </a> </li>
+				        <li> <Link to="/video">~Video </Link> </li>
+				        <li> <Link to="/donate">~Donate </Link> </li>
+				        <li> <Link to="/contact">~Contact Us </Link> </li>
 				      </ul>
 				    </div> { /* <!-- /.navbar-collapse --> */ }
 				  </div> { /* <!-- /.container-fluid --> */ }

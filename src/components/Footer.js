@@ -7,13 +7,13 @@ export default (props) => {
 	            <div className="container">
 	                <div className="row">
 	                <div className="col-xs-1">
-	                		<img src={"../../img/social-1_logo-facebook.svg"} />
+	                		<a href="https://www.facebook.com/DartmouthDodecs/"> Facebook </a>
 	                	</div>
 	                	<div className="col-xs-1">
-	                		<img src={"../../img/social-1_logo-instagram.svg"} />
+	                		<a href="https://www.facebook.com/DartmouthDodecs/"> Instagram </a>
 	                	</div>
 	                	<div className="col-xs-1">
-	                		<img src={"../../img/social-1_logo-spotify.svg"} />
+	                		<a href="https://www.facebook.com/DartmouthDodecs/"> Spotify </a>
 	                	</div>
 	                    <div className="col-xs-6" id="footer-text">
 	                        Copyright &copy; The Dartmouth Dodecaphonics 2017

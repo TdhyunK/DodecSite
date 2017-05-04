@@ -3,13 +3,17 @@
 }
 
 #dodecSymbol{
-	border-style: solid;
-	margin-left: 0%;
+	margin-left: 20%;
+	text-align: center;
 }
 
 #UpcomingShows{
-	margin-left: 10%;
-	border-style: solid;
+	margin-left: 20%;
+	text-align: center;
+}
+
+#showList{
+	text-align: left;
 }
 
 #pic1{
@@ -26,12 +30,23 @@
 	height: 40vh;
 	width: 100vh;
 	box-shadow: 2px 2px 5px #888888;
-	margin-right: 100%;
+	margin-right: 10%;
+}
 
+#videoDetail{
+	height: 60vh;
+	width: 100vh;
+	margin-bottom: 0px;
+}
+
+#videoList{
+	text-align: center;
+	height: 60vh;
+	margin-bottom: 10%;
 }
 
 #footer{
-	background-color: #00b300;
+	background-color: #669900;
 }
 
 #footer-text{
@@ -51,16 +66,16 @@
 }
 
 .navbar, .nav{
-	background-color: #00b300;
+	background-color: #669900;
 }
 
 .navbar.center .navbar-inner {
-	background-color: #00b300;
+	background-color: #669900;
     text-align: center;
 }
 .navbar.center .navbar-inner .nav {
 	font-size: 1.5em;
-	background-color: #00b300;
+	background-color: #669900;
     float: none;
     display:inline-block;
     vertical-align: top;  
@@ -97,5 +112,19 @@
 	text-align: center;
 }
 
+a {
+	color: #fff;
+	font-size: 1.2em;
+}
+
+h2 a {
+	color: #000;
+	font-size: 1.0em;
+}
+
+ul{
+	overflow:hidden; 
+	overflow-y:scroll;
+}
 
 
